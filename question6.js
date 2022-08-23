@@ -1,24 +1,29 @@
-//Given a square matrix print both the diagonals
-
-let arr=[
-  [4,5,6],
-  [6,7,8],
-  [3,4,5]
-];
-
-let row=arr.length;
-let column= arr[0].length;
-  let bag1="";
-  let bag2= "";
-for(i=0; i<=row-1; i++){
- for(j=0; j<=column-1; j++){
-    if(i==j){
-      bag1=bag1+arr[i][j]+" "; 
-    }   
-    if(i+j==row-1){
-      bag2= bag2+arr[i][j]+" ";
-    }
+function specificDiagonals(R, C, matrix, K){
+    //write code here
+  let diff,sum;
+  for(i=0; i<=R-1; i++){
+      for(j=0; j<=C-1; j++){
+          if(matrix[i][j]==K){
+              diff=i-j;
+              sum=i+j;
+          }
+      }
   }
+   let d1="";
+   let d2="";
+      for(i=0; i<=R-1; i++){
+          for(j=0; j<=C-1; j++){
+             if(diff==i-j){
+                 d1=d1+matrix[i][j]+" ";
+             } 
+             if(sum==i+j){
+                 d2=d2+matrix[i][j]+" ";
+             }
+          }
+      }
+      
+     console.log(d1);
+     console.log(d2);
 }
- console.log(bag1);
- console.log(bag2);
+
+
