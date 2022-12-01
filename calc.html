@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <form action="" onsubmit="return validateForm()">
+      <div class="div1">
+        <label for="firstName">First Name</label>
+        <input
+          class="input1"
+          type="text"
+          placeholder="Enter Your First Name"
+          id="fname"
+          name="fname"
+          autocomplete="off"
+          onkeyup="getValue(id,value)"
+        />
+        <p id="ferror" class="error1"></p>
+      </div>
+      <div class="div2">
+        <label for="LastName">Last Name</label>
+        <input
+          class="input1"
+          type="text"
+          placeholder="Enter Your Last Name"
+          onkeyup="getValue(id,value)"
+          id="lname"
+        />
+        <p id="lerror" class="error1"></p>
+      </div>
+      <div class="div3">
+        <label for="FullName">Full Name</label>
+        <input
+          class="input1"
+          type="text"
+          placeholder="Enter Your Full Name"
+          onkeyup="getValue(id,value)"
+          id="flname"
+        />
+        <p id="flerror" class="error1"></p>
+      </div>
+      <div class="div4">
+        <label for="Phone Number">Phone Number</label>
+        <input
+          class="input4"
+          type="text"
+          placeholder="Enter Your Phone Number"
+          onkeyup="getValue(id,value)"
+          id="phone"
+        />
+        <p id="perror" class="error1"></p>
+      </div>
+      <div class="div5">
+        <label for="Email">Email</label>
+        <input
+          class="input5"
+          type="email"
+          placeholder="Enter Your Email"
+          onkeyup="getValue(id,value)"
+          id="email"
+        />
+        <p id="eerror" class="error"></p>
+      </div>
+      <div class="div5">
+        <label for="dob">DOB</label>
+        <input
+          class="input5"
+          type="dob"
+          placeholder="Enter Your DOB"
+          onkeyup="getValue(id,value)"
+          id="dob"
+        />
+        <p id="derror" class="error"></p>
+      </div>
+      <div class="div7">
+        <label for="password">Password</label>
+        <input
+          class="input7"
+          type="password"
+          placeholder="Enter Your Password"
+          onkeyup="getValue(id,value)"
+          id="password"
+        />
+        <p id="passerror" class="error1"></p>
+      </div>
+      <div class="div8">
+        <label for="password">Confirm Password</label>
+        <input
+          class="input8"
+          type="password"
+          placeholder="Confirm The Password"
+          onkeyup="getValue(id,value)"
+          id="cpassword"
+        />
+        <p id="cpasserror" class="error1"></p>
+      </div>
+      <div class="div9">
+        <label for="gender">Gender</label>
+        <select
+          class="select"
+          name=""
+          id="gender"
+          onchange="getValue(id,value)"
+        >
+          <option value="">Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="div10">
+        <label for="city">City</label>
+        <select class="select2" name="" id="city" onchange="getValue(id,value)">
+          <option>Select City</option>
+          <option value="Indore">Indore</option>
+          <option value="Bhopal">Bhopal</option>
+          <option value="Lucknow">Lucknow</option>
+          <option value="Dhar">Dhar</option>
+          <option value="Pithampur">Pithampur</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Damoh">Damoh</option>
+          <option value="Katni">Katni</option>
+        </select>
+      </div>
+      <div class="div8">
+        <label for="zipcode">Zip Code</label>
+        <input
+          class="input11"
+          type="text"
+          placeholder="Zip Code"
+          onkeyup="getValue(id,value)"
+          id="zipcode"
+        />
+        <p id="zerror" class="error"></p>
+      </div>
+      <input class="input12" type="checkbox" name="" id="" />
+      <p class="para">I Agree to the term And & Condition</p>
+      <input class="submit" type="submit" onclick="myfunction()" />
+    </form>
+    <script src="calc.js"></script>
+  </body>
+</html>
