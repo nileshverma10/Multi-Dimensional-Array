@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Page</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+        <form class="container" action="" onsubmit="return validateForm()">
+          Username: <input class="input" type="text" placeholder="Enter Your username" id="username">
+          <p id="usererror" class="error"></p>
+          Password: <input class="input" type="password" placeholder="Enter Your password" id="password">
+          <p id="passerror" class="error"></p>
+          <input class="submit" type="submit"  onclick="myfunction()" >
+        </form>
+    <script src="text.js"></script>
+</body>
+</html>
