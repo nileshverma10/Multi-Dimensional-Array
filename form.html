@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form class="container" action="" onsubmit="return validateForm()">
+      <h4 class="h4">First Name:</h4>
+      <input
+        class="fname"
+        type="text"
+        placeholder="Enter Your First Name"
+        id="fname"
+      />
+      <p id="ferror" class="error"></p>
+      <h4 class="h4">LastName:</h4>
+      <input
+        class="lname"
+        type="text"
+        placeholder="Enter Your Last Name"
+        id="lname"
+      />
+      <p id="lerror" class="error"></p>
+      <h4 class="h4">PhoneNumber:</h4>
+      <input
+        class="number"
+        type="Phone"
+        placeholder="Enter Your Phone Number"
+        id="phone"
+      />
+      <p id="perror" class="error"></p>
+      <h4 class="h4">Username @:</h4>
+      <input
+        class="user"
+        type="text"
+        placeholder="Enter Your Username"
+        id="username"
+      />
+      <p id="usererror" class="error"></p>
+      <h4 class="h4">Gender:</h4>
+      <select class="gender" name="" id="gender">
+        <option value=""></option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+        <option value="">Other</option>
+      </select>
+      <h4 class="h4">City:</h4>
+      <select class="city" name="" id="">
+        <option>Select City</option>
+        <option value="">Indore</option>
+        <option value="">Bhopal</option>
+        <option value="">Lucknow</option>
+        <option value="">Dhar</option>
+        <option value="">Pithampur</option>
+        <option value="">Delhi</option>
+        <option value="">Mumbai</option>
+        <option value="">Kolkata</option>
+        <option value="">Damoh</option>
+        <option value="">Katni</option>
+      </select>
+      <h4 class="h4">Email:</h4>
+      <input
+        class="email"
+        type="email"
+        name=""
+        id="email"
+        placeholder="Enter Your Email"
+      />
+      <p id="eerror" class="error"></p>
+      <h4 class="h4">DOB:</h4>
+      <input class="dob" type="dob" placeholder="Enter Your DOB" id="dob" />
+      <p id="derror" class="error"></p>
+      <h4 class="h4">Zip Code:</h4>
+      <input
+        class="zipcode"
+        type="zipcode"
+        placeholder=" ZipCode"
+        id="zipcode"
+      />
+      <p id="zerror" class="error"></p>
+      <input class="submit" type="submit" id="submit" onclick="myfunction()" />
+      <input type="checkbox" name="" id="" />
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>
