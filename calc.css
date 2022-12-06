@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: lime; */
+    background-size: 100% 100%;
+  
+}
+
+.div1{
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: none;
+}
+.div1 label{
+    font-size: 20px; 
+}
+ .input1{
+    height: 30px;
+    width: 15%;
+    margin-left: 90px;
+    background-color: white;
+    border-radius: 10px;
+}
+.div2{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div2 label{
+    font-size: 20px; 
+}
+.div3{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div3 label{
+    font-size: 20px; 
+}
+.div4{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div4 label{
+    font-size: 20px; 
+}
+.input4{
+    height: 30px;
+    width: 15%;
+    margin-left: 53px;
+    background-color: white;
+    border-radius: 10px;
+}
+.div5{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div5 label{
+    font-size: 20px; 
+}
+.input5{
+    height: 30px;
+    width: 15%;
+    margin-left: 130px;
+    background-color: white;
+    border-radius: 10px;
+}
+.div7{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div7 label{
+    font-size: 20px; 
+}
+.input7{
+    height: 30px;
+    width: 15%;
+    margin-left: 95px;
+    background-color: white;
+    border-radius: 10px;
+}
+.input8{
+    height: 30px;
+    width: 15%;
+    margin-left: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+.div8{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div8 label{
+    font-size: 20px; 
+    margin-left: -4px;
+}
+.div9 label{
+    /* text-align: center; */
+    font-size: 20px;
+    margin-left: 725px;
+    margin-top: 50px;
+}
+.select {
+    margin-left: 118px;
+    margin-top: 30px;
+    background-color: white;
+}
+.select option{
+    background-color: white;
+}
+.div10 label{
+    /* text-align: center; */
+    font-size: 20px;
+    margin-left: 725px;
+    margin-top: 50px;
+}
+.select2 {
+    margin-left: 141px;
+    margin-top: 30px;
+    background-color: white;
+}
+.select2 option{
+    background-color: white;
+}
+.input11{
+    height: 30px;
+    width: 15%;
+    margin-left: 95px;
+    background-color: white;
+    border-radius: 10px;
+}
+.input12{
+  margin-left: 728px;
+  margin-top: 35px;
+  width: 25px;
+  height: 25px;
+}
+.para{
+    margin-left: 810px;
+    font-size: 20px;
+    margin-top: -25px;
+}
+.submit{
+    margin-top: 50px;
+    margin-left: 890px;
+    padding: 13px 50px;
+   background-color: red;
+   color: white;
+   border-radius: 30px;
+ 
+}
+.error{
+    color: red;
+    background: none;
+    margin-left: 20px;
+}
+.error1{
+    color: red;
+    background: none;
+    margin-left: 50px;
+}
