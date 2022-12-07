@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.container{
+    margin-left: 600px;
+    background-color: azure;
+    width: 500px;
+    height: 750px;
+    margin-top: 100px;
+}
+
+.fname{
+     width: 45%;
+     height: 30px;
+     background: none;
+     margin-top: -25px;
+     margin-left: 150px;
+}
+.lname{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.number{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.user{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.gender{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+
+}
+.gender option{
+    background: none;
+   
+}
+.h4{
+    /* margin-top: 30px; */
+    background: none;
+    /* margin-top: 15px; */
+}
+.error{
+    color: red;
+    background: none;
+    margin-left: 150px;
+}
+.city{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.city option{
+    background: none;
+}
+.email{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.dob{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.zipcode{
+    width: 45%;
+    height: 30px;
+    background: none;
+    /* margin-top: 30px; */
+    margin-left: 150px;
+}
+.check{
+    margin-left: -0px;
+   
+}
+.submit{
+        margin-top: 80px;
+        margin-left: 160px;
+        padding: 9px 30px;
+       background-color: lightslategray;
+       border-radius: 30px;
+     
+}
